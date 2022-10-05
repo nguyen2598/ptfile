@@ -1,0 +1,10 @@
+.hide{
+    display: none;
+}
+.active{
+    color: #fff;
+}
+
+.header-link-profile.active{
+    background-color: #e75e8d
+}

@@ -1,0 +1,194 @@
+#profile{
+    padding: 8rem 6rem;
+}
+
+.profile-content{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    color:rgb(85, 82, 82);
+    border-radius: 1rem;
+    /* margin-left: -10rem;
+    margin-right: -10rem; */
+    padding: 4rem 2rem 0 2rem;
+}
+.profile-content-profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-profile--infor{
+    width: 50%;
+    padding-right: 2rem;
+}
+
+.content-profile--infor .profile-infor{
+    display: flex;
+    margin-bottom: 3rem;
+}
+.profile-infor .infor--img{
+    background-color: red;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-image: url('../img/libray-product-card.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 2rem;
+}
+
+.profile-infor .infor--name{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color:#000;
+    font-weight: 600;
+}
+
+.profile-infor .infor--position{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color:#000;
+}
+
+.profile-infor .infor--email{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color:#000;
+}
+
+.profile-infor .infor--numphone{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:#000;
+}
+
+.profile-content--contact{
+
+}
+.profile-content--contact h1{
+    font-size: 2.8rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+/* 
+.profile-content--contact 
+
+.profile-content--contact
+
+.profile-content--contact */
+
+
+.profile--contact{
+    display: flex;
+    flex-direction: column;
+}
+.profile--contact .profile--mess {
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile--contact .profile--mess .contact--name{
+    font-size: 1.6rem;
+    padding-right: 1.0rem;
+    width: 50%;
+    margin-bottom: 2.0rem;
+}
+
+.profile--contact .profile--mess .contact--email{
+    font-size: 1.6rem;
+    padding-left: 1.0rem;
+    width: 50%;
+    margin-bottom: 2.0rem;
+}
+
+.profile--contact .profile--mess .contact--name input,
+.profile--contact .profile--mess .contact--email input{
+    width: 100%;
+    padding: 1.0rem;
+    outline: none;
+    border:0.1rem solid #ccc;
+}
+
+.profile--contact .profile--mess .contact--name input:focus,
+.profile--contact .profile--mess .contact--email input:focus{
+    border:  0.1rem solid #6a5af9;
+}
+
+.profile--contact #contact-cmt{
+    outline:none;
+    width: 100%;;
+    padding: 1.0rem;
+    font-size: 1.8rem;
+    border:0.1rem solid #ccc;
+}
+
+.profile--contact #contact-cmt:focus{
+    border:  0.1rem solid #6a5af9;
+}
+
+.profile--contact button{
+    padding: 1.0rem 4.0rem;
+    margin: 2.0rem 0 2.0rem auto;
+    outline:none;
+    border: 0.1rem solid #ccc;
+    cursor: pointer;
+}
+
+.profile--contact button:hover{
+    border:  0.1rem solid #6a5af9;
+    transform:scale(0.9);
+}
+
+
+
+.content-profile--skill{
+    width: 50%;
+    padding-left: 2.0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1.0rem;
+    font-size: 2.4rem;
+}
+
+.infor-Social{
+    display: flex;
+    padding: 0.4rem 0.5rem;
+}
+
+.social--item{
+    width: 25%;    
+    padding: 0rem 0.5rem;
+}
+
+.social--fb,
+.social--tik,
+.social--yt,
+.social--zalo{
+    padding: 0.5rem 0.5rem;
+    /* background:#ccc; */
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    box-shadow: 0 0 1rem 0 #ccc;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+.social--fb:hover,
+.social--tik:hover,
+.social--yt:hover,
+.social--zalo:hover{
+    transform:scale(0.9);
+}
+
+.social--fb img,
+.social--tik img,
+.social--yt img,
+.social--zalo img{
+    width: 100%;
+}

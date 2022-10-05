@@ -1,0 +1,270 @@
+.main{
+    margin: 2rem 3.2rem;
+    background-color: #ccc;
+    border-radius: 2rem;
+}
+
+.page-content{
+    padding: 8rem 6rem;
+}
+
+.page-content h1{
+    font-size: 0.2rem;
+    font-weight:800;
+}
+
+
+
+.feature{
+    background:url('https://bantranh.com/wp-content/uploads/2019/04/tranh-dan-tuong-3d-vu-tru-cua-con.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+    padding: 8rem 6rem; 
+    border-radius: 1rem; 
+    transition:all 1s linear;
+    /* background-attachment: scroll; */
+}
+
+.main-banner{
+    width: 58.3333%;
+    color: rgb(229, 131, 20);
+}
+
+.main-banner h1{
+    font-size: 4.5rem;
+    margin: 20rem 0;
+}
+.main-banner h3{
+    font-size: 2.5rem;
+}
+.main-banner button{
+    font-size: 1.6rem;
+    outline: none;
+    border:none;
+    background-color: greenyellow;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    color:black;
+    cursor: pointer;
+}
+
+
+
+/* HOME */
+.home{
+    
+}
+
+.home-content{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    color:rgb(85, 82, 82);
+    border-radius: 1rem;
+    /* margin-left: -10rem;
+    margin-right: -10rem; */
+    padding: 4rem 2rem 0 2rem;
+   
+}
+.home-content-popular{
+    width: 33.33333%; 
+    padding: 0 1rem;
+}
+.popular-content--item{
+    background-color:rgb(216, 216, 210);
+    padding: 2rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    box-shadow:0 0 1rem 0 rgb(127, 127, 125);
+    margin-bottom: 2rem;
+}
+.popular-item{
+
+}
+.popular-item--img{
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+.profile-project{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 0;
+    background-color:rgba(0, 0, 0, 0.5);
+    transition:all 0.25s linear;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.profile-project--language{
+    color: #1efffd;
+    font-size: 2.4rem;
+}
+.profile-project--live{
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+    border-radius:0.5rem;
+    text-align: center;
+    min-width: 13rem;
+    background-color:rgb(86, 85, 85);
+    margin: 0.5rem;
+    padding: 1rem 0.5rem 0.8rem 0.5rem ;
+    color:#32ff07;
+    font-size: 2rem;
+}
+.profile-project--down{
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+    border-radius:0.5rem;
+    text-align: center;
+    min-width: 13rem;
+    background-color:rgb(86, 85, 85);
+    margin: 0.5rem;
+    padding: 1rem 0.5rem 0.8rem 0.5rem ;
+    color:#32ff07;
+    font-size: 2rem;
+}
+.profile-project--code{
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+    border-radius:0.5rem;
+    text-align: center;
+    min-width: 13rem;
+    background-color:rgb(86, 85, 85);
+    margin: 0.5rem;
+    padding: 1rem 0.5rem 0.8rem 0.5rem ;
+    color:#32ff07;
+    font-size: 2rem;
+}
+.profile-project--live:hover,
+.profile-project--down:hover,
+.profile-project--code:hover{
+    transform: scale(0.9);
+    background-color:#05d02e;
+    color:#fff;
+}
+.popular-item--img:hover .profile-project{
+    height: 100%;
+}
+.popular-item--img img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.popular-item--prymary{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.popular-item--prymary .item-prymary--name{
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+.popular-item--prymary .item-prymary--star .star-focus{
+    display: none;
+}
+.star-no-focus{
+    color: rgb(247, 81, 4);
+}
+
+.dow-low{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+}
+.popular-item--down{
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+}
+.popular-item--down i{
+    margin-right: 0.5rem;
+}
+.popular-item--down:hover{
+    text-decoration: underline;
+}
+
+.home-library{
+    background-color: #fff; 
+    margin-top: 2rem;
+    color:rgb(85, 82, 82);
+    border-radius: 1rem;
+    padding: 2rem 2rem 2rem 2rem;
+    margin: 2rem 0;
+}
+
+.home-library h1{
+    margin-bottom: 2rem;
+}
+
+.home-library--content{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content:space-between;
+    margin-right: 5rem;
+
+    font-size: 1.8rem;
+    flex-wrap: wrap;
+    
+}
+hr{
+    margin: 2rem 0;
+}
+.library-content--img img{
+    width: 8rem;
+    height: 8rem;
+    overflow: hidden;
+    border-radius:1rem;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5)
+}
+.library-content--img img{
+    max-width: 100%;
+}
+.library-content--name{
+
+} 
+.library-content--added{
+
+}
+.library-content--play{
+
+}
+.library-content--cur{
+
+}
+.library-content--down{
+
+}
+.library-content--nd{
+
+}
+.library-nd{
+
+}
+a{
+    text-decoration:none;
+}
+a:hover{ 
+    text-decoration: underline;
+}
+.home-library h1{
+    font-size: 2rem;
+    font-weight:800;
+}

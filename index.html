@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web nhà làm</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/profile.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/tab.css">
+    <link rel="stylesheet" href="./css/respon.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="root">
+        <div class="header">
+            <div class="header-logo">
+                <img src="./candyha.png" alt="">
+            </div>
+            <div class="header-search">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                <input type="text">
+            </div>
+            <div class="header-link">
+                <div class="header-link--text" type-list="home">Home</div>
+                <div class="header-link--text" type-list="browse">Browse</div>
+                <div class="header-link--text" type-list="detail">Details</div>
+                <div class="header-link--text" type-list="stream">Streams</div>
+                <div class="header-link--text header-link-profile" type-list="profile">
+                   Profile 
+                    <div class="imgs">
+                        <img src="./profileImage.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="bars">
+                <div class="navbar">
+                    <i class="fa-solid fa-bars"></i>
+                    <div class="nav-content">
+                            <div class="header-link--text header-link-profile" type-list="profile">
+                            Profile 
+                                <div class="imgs">
+                                    <img src="./profileImage.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="header-link--text" type-list="home">Home</div>
+                            <div class="header-link--text" type-list="browse">Browse</div>
+                            <div class="header-link--text" type-list="detail">Details</div>
+                            <div class="header-link--text" type-list="stream">Streams</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="home list-item" type-list="home">
+                <div class="page-content">
+                    <div class="feature">
+                        <div class="feature-img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="main-banner">
+                            <h3>Welcome to  page</h3>
+                            <h1>
+                                <em>BROWSE</em> 
+                                OUR POPULAR WEB HERE
+                            </h1>
+                            <button onclick="nextImage()">Browse Now</button>
+                        </div>
+                    </div>
+                    <h1 style="
+                        text-decoration: underline;
+                        
+                        color: orange;
+                        margin-top: 20px;
+                        margin-left: 10px;
+                    ">
+                        Project
+                    </h1>
+                    <div class="home-content">
+                        <div class="home-content-popular">
+                            <div class="popular-content--item">
+                                <!-- <div class="popular-item"> -->
+                                    <div class="popular-item--img">
+                                        <img src="./img/zing-fake.jpg" alt="">
+                                        <div class="profile-project">
+                                            <div class="profile-project--language">Language:HTML-CSS-Javascript</div>
+                                            <a href="https://nguyen2598.github.io/Zingfake/" target="_blank" class="profile-project--live">
+                                                Live demo
+                                            </a>
+                                            <a href="https://codepen.io/nguyen2598/pen/abGGyJJ" target="_blank" class="profile-project--code">
+                                                Code mẫu
+                                            </a>
+                                            <a  class="profile-project--down">
+                                                Help
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="popular-item--prymary">
+                                        <div class="item-prymary--name">ZingMP3</div>
+                                        <div class="item-prymary--star">
+                                            <i class="star-no-focus fa-solid fa-star"></i>
+                                            <i class="star-focus fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="dow-low"> 
+                                        <a  href="https://raw.githubusercontent.com/nguyen2598/Zingfake/main/fakeZingMp3.rar" download="zingmp3" target="_blank" class="popular-item--down">
+                                            <i class="fa-solid fa-download"></i>
+                                            Download code
+                                        </a>
+                                       
+                                        <div class="folow">124689</div>
+                                    </div>
+
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                        <div class="home-content-popular">
+                            <div class="popular-content--item">
+                                <!-- <div class="popular-item"> -->
+                                    <div class="popular-item--img">
+                                        <div class="profile-project">
+                                            <div class="profile-project--language">Language:HTML-CSS-Javascript</div>
+                                            <a href="https://nguyen2598.github.io/peee/" target="_blank" class="profile-project--live">
+                                                Live demo
+                                            </a>
+                                            <a href="https://codepen.io/nguyen2598/pen/NWMMvqJ" target="_blank" class="profile-project--code">Code mẫu</a>
+                                            <a class="profile-project--down">Help</a>
+                                        </div>
+                                        <img src="./img/shoppe.jpg" alt="">
+                                    </div>
+                                    <div class="popular-item--prymary">
+                                        <div class="item-prymary--name">Shoppe</div>
+                                        <div class="item-prymary--star">
+                                            <i class="star-no-focus fa-solid fa-star"></i>
+                                            <i class="star-focus fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="dow-low">
+                                        <a href="https://raw.githubusercontent.com/nguyen2598/peee/master/f8-shop.rar" download="shoppe" target="_blank" class="popular-item--down">
+                                            <i class="fa-solid fa-download"></i>
+                                            Download code
+                                        </a>
+                                        <div class="folow">124689</div>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                        <div class="home-content-popular">
+                            <div class="popular-content--item">
+                                <!-- <div class="popular-item"> -->
+                                    <div class="popular-item--img">
+                                        <div class="profile-project">
+                                            <div class="profile-project--language">Language:HTML-CSS-Javascript</div>
+                                            <a href="https://nguyen2598.github.io/30day/Day22-Filter%20Elements/" target="_blank" class="profile-project--live">
+                                                Live demo
+                                            </a>
+                                            <a href="https://codepen.io/nguyen2598/pen/xxjjLZg" target="_blank" class="profile-project--code">Code mẫu</a>
+                                            <a class="profile-project--down">Help</a>
+                                        </div>
+                                        <img src="./img/menuRice.jpg" alt="">
+                                    </div>
+                                    <div class="popular-item--prymary">
+                                        <div class="item-prymary--name">Food list</div>
+                                        <div class="item-prymary--star">
+                                            <i class="star-no-focus fa-solid fa-star"></i>
+                                            <i class="star-focus fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="dow-low">
+                                        <a href="https://raw.githubusercontent.com/nguyen2598/30day/master/food.rar" download="Food list" target="_blank" class="popular-item--down">
+                                            <i class="fa-solid fa-download"></i>
+                                            Download code
+                                        </a>
+                                        <div class="folow">124689</div>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                        <div class="home-content-popular">
+                            <div class="popular-content--item">
+                                <!-- <div class="popular-item"> -->
+                                    <div class="popular-item--img">
+                                        <div class="profile-project">
+                                            <div class="profile-project--language">Language:HTML-CSS-Javascript</div>
+                                            <a href="https://nguyen2598.github.io/30day/Day6-Detect%20Pressed%20Key/" target="_blank" class="profile-project--live">
+                                                Live demo
+                                            </a>
+                                            <a href="https://codepen.io/nguyen2598/pen/poVVrjz" target="_blank" class="profile-project--code">Code mẫu</a>
+                                            <a class="profile-project--down">Help</a>
+                                        </div>
+                                        <img src="./img/key.jpg" alt="">
+                                    </div>
+                                    <div class="popular-item--prymary">
+                                        <div class="item-prymary--name">Detect Pressed Key</div>
+                                        <div class="item-prymary--star">
+                                            <i class="star-no-focus fa-solid fa-star"></i>
+                                            <i class="star-focus fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="dow-low">
+                                        <a href="https://raw.githubusercontent.com/nguyen2598/30day/master/Key.rar" download="Key" target="_blank" class="popular-item--down">
+                                            <i class="fa-solid fa-download"></i>
+                                            Download code
+                                        </a>
+                                        <div class="folow">124689</div>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                        <div class="home-content-popular">
+                            <div class="popular-content--item">
+                                <!-- <div class="popular-item"> -->
+                                    <div class="popular-item--img">
+                                        <div class="profile-project">
+                                            <div class="profile-project--language">Language:HTML-CSS-Javascript</div>
+                                            <a href="https://nguyen2598.github.io/30day/Day9-Weather%20App/" target="_blank" class="profile-project--live">
+                                                Live demo
+                                            </a>
+                                            <a href="https://codepen.io/nguyen2598/pen/LYmmjpL" target="_blank" class="profile-project--code">Code mẫu</a>
+                                            <a class="profile-project--down">Help</a>
+                                        </div>
+                                        <img src="./img/whether.jpg" alt="">
+                                    </div>
+                                    <div class="popular-item--prymary">
+                                        <div class="item-prymary--name">Weather App</div>
+                                        <div class="item-prymary--star">
+                                            <i class="star-no-focus fa-solid fa-star"></i>
+                                            <i class="star-focus fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="dow-low">
+                                        <a href="https://raw.githubusercontent.com/nguyen2598/30day/master/Day9-Weather%20App.rar" download="Weather App" target="_blank" class="popular-item--down">
+                                            <i class="fa-solid fa-download"></i>
+                                            Download code
+                                        </a>
+                                        <div class="folow">124689</div>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                        <div class="home-content-popular">
+                            <div class="popular-content--item">
+                                <!-- <div class="popular-item"> -->
+                                    <div class="popular-item--img">
+                                        <div class="profile-project">
+                                            <div class="profile-project--language">Language:HTML-CSS-Javascript</div>
+                                            <a href="https://nguyen2598.github.io/zmp3/" target="_blank" class="profile-project--live">
+                                                Live demo
+                                            </a>
+                                            <a href="https://codepen.io/nguyen2598/pen/GRddvgd" target="_blank" class="profile-project--code">Code mẫu</a>
+                                            <a class="profile-project--down">Help</a>
+                                        </div>
+                                        <img src="./img/zingF8.jpg" alt="">
+                                    </div>
+                                    <div class="popular-item--prymary">
+                                        <div class="item-prymary--name">ZingF8</div>
+                                        <div class="item-prymary--star">
+                                            <i class="star-no-focus fa-solid fa-star"></i>
+                                            <i class="star-focus fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="dow-low">
+                                        <a href="https://raw.githubusercontent.com/nguyen2598/30day/master/zing%20mp3.rar" download="zingF8" target="_blank" class="popular-item--down">
+                                            <i class="fa-solid fa-download"></i>
+                                            Download code
+                                        </a>
+                                        <div class="folow">124689</div>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                        <div class="home-content-popular">
+                            <div class="popular-content--item">
+                                <!-- <div class="popular-item"> -->
+                                    <div class="popular-item--img">
+                                        <div class="profile-project">
+                                            <div class="profile-project--language">Language:HTML-CSS-Javascript</div>
+                                            <a href="https://nguyen2598.github.io/VScode/" target="_blank" class="profile-project--live">Live demo</a>
+                                            <a href="https://codepen.io/nguyen2598/pen/zYjjdGB" class="profile-project--code">Code mẫu</a>
+                                            <a class="profile-project--down">Help</a>
+                                        </div>
+                                        <img src="./img/truyenQQ.jpg" alt="">
+                                    </div>
+                                    <div class="popular-item--prymary">
+                                        <div class="item-prymary--name">Comic review</div>
+                                        <div class="item-prymary--star">
+                                            <i class="star-no-focus fa-solid fa-star"></i>
+                                            <i class="star-focus fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="dow-low">
+                                        <a href="https://raw.githubusercontent.com/nguyen2598/VScode/develop/webtruyen.rar" download="comic" target="_blank" class="popular-item--down">
+                                            <i class="fa-solid fa-download"></i>
+                                            Download code
+                                        </a>
+                                        <div class="folow">124689</div>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-library">
+                        <h1 style="
+                        text-decoration: underline;
+                        
+                        color: orange;
+                        ">
+                            comic
+                        </h1>
+                        <div class="home-library--content">
+                            <div class="library-content--img c-6">
+                                <img src="./img/library-zing.png" alt="">
+                            </div>
+                            <div class="library-content--name library-content--nd c-6">
+                                <h3>ZingMP3</h3>
+                                <div class="library-nd" style="color:rgb(250, 163, 12);">01/10/2022</div>
+                            </div>
+                            <div class="library-content--added library-content--nd c-6">
+                                <h3>Date added</h3>
+                                <div class="library-nd" style="color:rgb(250, 163, 12);">04/05/2022</div>
+                            </div>
+                            <div class="library-content--play library-content--nd c-6">
+                                <h3>Repair time</h3>
+                                <div class="library-nd" style="color:rgb(250, 163, 12);">6h</div>
+                            </div>
+                            <div class="library-content--cur library-content--nd c-6">
+                                <h3>Current status</h3>
+                                <div class="library-nd" style="color:rgb(250, 163, 12);">complete</div>
+                            </div>
+                            <a href="" download="" class="library-content--down c-6 ">
+                                Download
+                            </a>
+                        </div>
+                        <hr>
+                        <div class="home-library--content">
+                            <div class="library-content--img c-6">
+                                <img src="./img/libray-profile-card.png" alt="">
+                            </div>
+                            <div class="library-content--name library-content--nd c-6">
+                                <h3>Profile Card</h3>
+                                <div class="library-nd" style="color:rgb(250, 163, 12);">02/10/2022</div>
+                            </div>
+                            <div class="library-content--added library-content--nd c-6">
+                                <h3>Date added</h3>
+                                <div class="library-nd" style="color:rgb(250, 163, 12);">05/08/2022</div>
+                            </div>
+                            <div class="library-content--play library-content--nd c-6">
+                                <h3>Repair time</h3>
+                                <div class="library-nd" style="color:rgb(250, 163, 12);">1.5h</div>
+                            </div>
+                            <div class="library-content--cur library-content--nd c-6">
+                                <h3>Current status</h3>
+                                <div class="library-nd" style="color:rgb(250, 163, 12);">complete</div>
+                            </div>
+                            <a href="" download="" class="library-content--down  c-6">
+                                Download
+                            </a>
+                        </div>
+                        <hr>
+                        <div class="home-library--content">
+                            <div class="library-content--img c-6">
+                                <img src="./img/libray-product-card.png" alt="">
+                            </div>
+                            <div class="library-content--name library-content--nd c-6">
+                                <h3>Product card</h3>
+                                <div class="library-nd" style="color:rgb(250, 163, 12);">01/10/2022</div>
+                            </div>
+                            <div class="library-content--added library-content--nd c-6">
+                                <h3>Date added</h3>
+                                <div class="library-nd" style="color:rgb(250, 163, 12);">04/08/2022</div>
+                            </div>
+                            <div class="library-content--play library-content--nd c-6">
+                                <h3>Repair time</h3>
+                                <div class="library-nd" style="color:rgb(250, 163, 12);">2h</div>
+                            </div>
+                            <div class="library-content--cur library-content--nd c-6">
+                                <h3>Current status</h3>
+                                <div class="library-nd" style="color:rgb(250, 163, 12);">complete</div>
+                            </div>
+                            <a href="" download="" class="library-content--down  c-6">
+                                Download
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- end home -->
+            <div class="browse list-item" type-list="browse">
+                <div class="wp-content">
+                    <div class="left-block"></div>
+                    <div class="right-block"></div>
+                </div>
+                <div class="Between-content"></div>
+                <div class="bottom-content"></div>
+            </div>
+            <div class="ditails list-item" type-list="detail"></div>
+            <div class="streams list-item" type-list="stream"></div>
+            <div id="profile" class="list-item hide" type-list="profile">
+                <div class="profile-content">
+                    <div class="profile-content-profile">
+                        <div class="content-profile--infor">
+                            <div class="profile-infor">
+                                <div class="infor--img">
+                                   
+                                </div>
+                                <div class="infor-infor">
+                                    <div class="infor--name">Tên: Đặng Đình Nguyên</div>
+                                    <div class="infor--position">Fronend Developer</div>
+                                    <div class="infor--email">Email: dinhnguyen250802@gmail.com</div>
+                                    <div class="infor--numphone">Điện Thoại: 0963045750</div>
+                                    <!-- <div class="infor-Social"></div> -->
+                                    <div class="infor-Social">
+                                        <a href="" target="_blank" class="social--item">
+                                            <div class="social--fb">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="">
+                                            </div>
+                                        </a>
+                                        <a href="" target="_blank" class="social--item">
+                                            <div class="social--tik">
+                                                <img src="https://brademar.com/wp-content/uploads/2022/05/TikTok-Logo-PNG-2016-%E2%80%93-Now.png" alt="">
+                                            </div>
+                                        </a>
+                                        <a href="" target="_blank" class="social--item">
+                                            <div class="social--yt">
+                                                <img src="https://cdn.pixabay.com/photo/2016/11/19/03/08/youtube-1837872_960_720.png" alt="">
+                                            </div>
+                                        </a>
+                                        <a href="" target="_blank" class="social--item">
+                                            <div class="social--zalo">
+                                                <img src="https://page.widget.zalo.me/static/images/2.0/Logo.svg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div  action="" method="POST" class="profile-content--contact">
+                                <h1>Contact me</h1>
+                                <from class="profile--contact">
+                                    <div class="profile--mess">
+                                        <div class="contact--name">
+                                            <input  type="text" name="fullname" placeholder="Name">
+                                        </div>
+                                        <div class="contact--email">
+                                            <input  type="email" name="email" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <textarea name="" id="contact-cmt" cols="30" rows="10"></textarea>
+                                    <button type="submit">Send</button>
+                                </from>
+                            </div>
+                        </div>
+                        <div class="content-profile--skill">
+                            Web Development: ( Frontend ) : HTML, CSS, JavaScript, DOM (Document Object Model), CSS Layouts, Responsive Design
+                            <!-- <div class="infor-Social">
+                                <div class="social--item">
+                                    <div class="social--fb">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="social--item">
+                                    <div class="social--tik">
+                                        <img src="https://brademar.com/wp-content/uploads/2022/05/TikTok-Logo-PNG-2016-%E2%80%93-Now.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="social--item">
+                                    <div class="social--yt">
+                                        <img src="https://cdn.pixabay.com/photo/2016/11/19/03/08/youtube-1837872_960_720.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="social--item">
+                                    <div class="social--zalo">
+                                        <img src="https://page.widget.zalo.me/static/images/2.0/Logo.svg" alt="">
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="copyringht">
+                <p>Website thiết kế bởi Đình Nguyên  © 2022</p>
+                <a href="https://www.facebook.com/"></a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+<script src="./js/newTab.js"></script>
+</html>

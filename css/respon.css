@@ -1,0 +1,111 @@
+@media (max-width:1280px) {
+    .home-content-popular{
+        width: 50%;
+        padding: 0 1rem;
+    }
+    .content-profile--infor .profile-infor{
+        flex-direction: column;
+    }
+}
+@media (max-width:1050px) {
+    .home-content-popular{
+        width: 100%;
+        padding: 0 1rem;
+    }
+    .home-library{
+        text-align: center;
+    }
+    .page-content h1,
+    .home-library h1{
+        font-size: 6rem;
+    }
+    .home-library--content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1000px){
+    .header{
+        justify-content: space-between;
+        
+    }
+    .bars{
+        display: block;
+    }
+    .header .header-link{
+        display: none;
+    }
+    .nav-content{
+        visibility: hidden;
+    	opacity: 0;
+        transition: all 0.4s linear;
+    }
+    .navbar .fa-bars.clickNavBar + .nav-content{
+        visibility: visible;
+    	opacity: 1;
+        font-weight: 600;
+    }
+}
+
+@media (max-width:790px) {
+    .main{
+        margin: 2rem 1rem;
+        background-color: #ccc;
+        border-radius: 2rem;
+    }
+    .header .header-search{
+        display: none;
+    }
+    .page-content {
+        padding: 8rem 0rem;
+    }
+    .home-content{
+        padding: 4rem 0;
+    }
+    .home-content-popular{
+        width: 100%; 
+        padding: 0;
+    }
+    .c-6{
+        width: calc(100% / 2);
+    }
+    .profile-project--language{
+        color: #1efffd;
+        font-size: 1.8rem;
+    }
+    .home-library{
+        text-align: center;
+    }
+    .page-content h1,
+    .home-library h1{
+        font-size: 4rem;
+    }
+    .home-library--content{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-profile--infor{
+        width: 100%;
+    }
+    .content-profile--skill{
+        width: 100%;
+    }
+    #profile {
+        padding: 8rem 0.5rem;
+    }
+    .profile--mess{
+        flex-direction: column;
+    }
+    .profile--contact .profile--mess .contact--email {
+        padding-left: 0;
+        width: 90%;
+    }
+    .profile--contact .profile--mess .contact--name {
+        padding-right: 0;
+        width: 90%;
+    }
+    .profile--contact #contact-cmt {
+        width: 90%;
+    }
+}

@@ -1,0 +1,14 @@
+.copyringht{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+.copyringht a{
+    text-decoration: none;
+    color: #000;
+}
+.copyringht a:hover{
+    color:orange;
+}
