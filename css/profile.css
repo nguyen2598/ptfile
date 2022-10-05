@@ -34,7 +34,8 @@
     height: 22rem;
     border-radius: 1rem;
     overflow: hidden;
-    background-image: url('../img/libray-product-card.png');
+    background-image: url('../nguyen.jpg');
+    background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 2rem;

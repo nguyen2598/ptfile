@@ -101,11 +101,23 @@
         padding-left: 0;
         width: 90%;
     }
+    .content-profile--skill {
+        padding-left: 0;
+    }
     .profile--contact .profile--mess .contact--name {
         padding-right: 0;
         width: 90%;
     }
     .profile--contact #contact-cmt {
         width: 90%;
+    }
+    .profile--contact button{
+        margin: 2rem auto 2rem 0 ;
+    }
+    #profile{
+        padding: 0 0;
+    }
+    .page-content{
+        padding: 0;
     }
 }
